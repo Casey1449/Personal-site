@@ -23,7 +23,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "../public/favicon.ico"
+  favicon    = "img/favicon.ico"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -105,7 +105,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Here are some example of things I've built."
 
     [params.portfolio.modal]
       client = "Client"
@@ -118,13 +118,13 @@ googleAnalytics = ""
   [params.tech]
     enable = true
     title = "Tech"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Here are some of the technologies I enjoy using. These represent the comfort zone, but I love learning new tech as well."
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Contact me"
+    subtitle  = "I'm open to new projects and connections, or just chatting tech!"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
