@@ -8,10 +8,10 @@
     {{ partial "hero.html" . }}
 
 
-    {{ if .Site.Params.services.enable }}
-    {{ partial "services.html" . }}
+    {{ if .Site.Params.about.enable }}
+    {{ partial "about.html" . }}
     {{ end }}
-    
+
     {{ if .Site.Params.tech.enable }}
     {{ partial "tech.html" . }}
     {{ end }}

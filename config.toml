@@ -46,7 +46,7 @@ googleAnalytics = ""
   # Navigation
   [params.navigation]
     logo = "bonsai-svg-white.svg"
-    services = "About"
+    about = "About"
     tech = "Tech"
     portfolio = "Portfolio"
     contact = "Contact"
@@ -75,24 +75,24 @@ googleAnalytics = ""
     title = "Casey Metz"
     subtitle = "Software Engineering, Development, & Design"
 
-  # Services section
-  [params.services]
+  # about section
+  [params.about]
     enable = true
     title = "About"
 
-    [[params.services.row]]
+    [[params.about.row]]
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-gears"
       title = "Useful"
       description = "Knowing how to code is like having magical powers: I can see a need and pull a thing out of nothingness to meet that need. I feel most fulfilled when I use these powers to build technology that helps people, making their lives easier."
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-mobile-phone"
       title = "Responsive"
       description = "Responsiveness means more than just screen-sizes; it functioning seemlessly across browsers and operating systems as well. No one wants to be trapped in front of a desktop machine all day. (Actually, some of us don't mind it so much...)"
 
-    [[params.services.row.list]]
+    [[params.about.row.list]]
       icon = "fa-users"
       title = "Accesible"
       description = "Accomodating people with different abilities is not an extra feature, it is a fundamental responsibility. For many, an inaccesible site is a broken site. Developers must build accesible products if the internet is to live up to its democratizing potential."
