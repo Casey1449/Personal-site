@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Agency"
+title = "Metz"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,13 +17,13 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Casey Thomas Metz"
+  description = "My software engineer frontend web development portfolio site, featuring javascript, react, redux, sass, es6, node, and jquery."
 
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "img/favicon.ico"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -45,13 +45,12 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    # brand = "The Agency"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
+    logo = "bonsai-svg-white.svg"
+    about = "About"
     services = "Services"
     portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
