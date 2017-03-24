@@ -1,4 +1,5 @@
 # Site settings
+baseurl = "https://agile-tor-69880.herokuapp.com/"
 languageCode = "en-us"
 title = "Metz"
 theme = "hugo-agency-theme"
