@@ -18,9 +18,8 @@
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
               <ul class="list-inline">
-                <li>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: {{ .date }}</li>
-                <li>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: <a href="{{ .clientLink }}">{{ .client }}</a></li>
-                <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</li>
+                <li>{{ with $.Site.Params.portfolio.modal.code }}{{ . | markdownify }}{{ end }}: <a href="{{ .codeLink }}" target="_blank">{{ .code }}</a></li>
+                <li>{{ with $.Site.Params.portfolio.modal.deployed }}{{ . | markdownify }}{{ end }}: <a href="{{ .deployedLink }}" target="_blank">{{ .deployed }}</a></li>
               </ul>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>

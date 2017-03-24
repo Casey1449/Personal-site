@@ -1,10 +1,11 @@
 modalID: 5
 title: Re:fuel
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-09
-img: golden.png
-preview: golden-preview.png
-client: Start Bootstrap
-clientLink: "#"
+subtitle: Find nearby fueling stations for your alternatively-fueled vehicle.
+code: Github
+codeLink: "https://github.com/Casey1449/React-Native"
+img: react-native.png
+preview: react-native-preview.png
+deployed: This app not yet deployed to the iOS App store.
+deployedLink: null
 category: React Native, Mobile-first, Geolocation
-description: Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](//freebiesxpress.com/gallery/golden-free-one-page-web-template/).
+description: A project for iOS, built with React Native. The app consumes an API to find nearby alternative fueling stations (electric, biodiesel, etc.) that fit the user's needs based on selected preferences. Uses geolocation to calculate the closest stations, and provides detailed information about each station.

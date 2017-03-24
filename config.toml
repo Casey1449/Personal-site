@@ -105,12 +105,12 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Here are some example of things I've built."
+    subtitle = "Here are some examples of things I've built."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
+      deployed = "Deployed"
+      code = "Code"
+      category = "category"
       buttonText = "Close project"
 
 
@@ -145,7 +145,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "caseymetz@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -180,24 +180,15 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/CaseyTMetz"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+      icon = "fa-github"
+      link = "https://github.com/Casey1449"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+      link = "https://www.linkedin.com/in/casey-metz-732804132"

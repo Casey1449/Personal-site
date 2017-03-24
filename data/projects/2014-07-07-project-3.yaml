@@ -1,10 +1,11 @@
 modalID: 3
 title: Blanched Almonoid
-subtitle: Lorem ipsum dolor sit amet consectetur.
-date: 2014-07-07
+subtitle: A classic arcade game in pure JS, named after a CSS color.
+code: Github
+codeLink: "https://github.com/Casey1449/Blanched-Almonoid"
 img: blanched-almonoid.png
-preview: blanched-almonoid.png
-client: Start Bootstrap
-clientLink: "#"
+preview: blanched-almonoid-preview.png
+deployed: Break some bricks here!
+deployedLink: "https://casey1449.github.io/Blanched-Almonoid/"
 category: HTML5 Canvas, O.O., Collision detection
-description: Treehouse is a free PSD web template built by [Mathavan Jaya](//www.behance.net/MathavanJaya). This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects. <br><br>You can download the PSD template in this portfolio sample item at [FreebiesXpress.com](freebiesxpress.com/gallery/treehouse-free-psd-web-template/).
+description: A version of the classic Breakout-style game, named in tribute to FFEBCD, aka 'Blanched-Almond'. It is built purely in JavaScript, in a very object-oriented prototype-based architecture. Styled after a 50's cookbook theme. The game allows the player to choose any of 10 different levels to play. Clicking the 'Start Blanchin!' button gives the player a countdown timer before the almond is launched. Gameplay continues until the player clears all the bricks or loses the almond 3 times in any given level. At any time a player is able to change the level using the buttons in the lower left corner of the screen.
