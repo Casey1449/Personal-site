@@ -2,7 +2,6 @@
 baseurl = "https://agile-tor-69880.herokuapp.com/"
 languageCode = "en-us"
 title = "Metz"
-theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
