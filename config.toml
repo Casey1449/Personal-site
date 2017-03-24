@@ -1,8 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://agile-tor-69880.herokuapp.com/"
 languageCode = "en-us"
 title = "Metz"
-theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -148,8 +147,8 @@ googleAnalytics = ""
     email = "caseymetz@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Thank you for contacting me, I'll be sure to get in touch soon!"
+    error = "Message could not be send. Please contact me at caseymetz@gmail.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -161,7 +160,7 @@ googleAnalytics = ""
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Your Phone"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]

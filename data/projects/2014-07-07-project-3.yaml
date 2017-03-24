@@ -7,5 +7,5 @@ img: blanched-almonoid.png
 preview: blanched-almonoid-preview.png
 deployed: Break some bricks here!
 deployedLink: "https://casey1449.github.io/Blanched-Almonoid/"
-category: HTML5 Canvas, O.O., Collision detection
+category: HTML5 Canvas, Collision detection
 description: A version of the classic Breakout-style game, named in tribute to FFEBCD, aka 'Blanched-Almond'. It is built purely in JavaScript, in a very object-oriented prototype-based architecture. Styled after a 50's cookbook theme. The game allows the player to choose any of 10 different levels to play. Clicking the 'Start Blanchin!' button gives the player a countdown timer before the almond is launched. Gameplay continues until the player clears all the bricks or loses the almond 3 times in any given level. At any time a player is able to change the level using the buttons in the lower left corner of the screen.
