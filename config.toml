@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313/"
+baseurl = "https://casey1449.github.io/Personal-site/"
 languageCode = "en-us"
 title = "Metz"
 
