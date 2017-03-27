@@ -18,14 +18,8 @@
 
         </ul>
       </div>
-      <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-
-          {{ range .Site.Params.footer.quicklinks }}
-            <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
-          {{ end }}
-
-        </ul>
+      <div class="col-md-12">
+        <p>(I made this site with <a class="hugo-link" href="http://gohugo.io/">Hugo</a>, a supercool Go-based static site generator.)</p>
       </div>
     </div>
   </div>
