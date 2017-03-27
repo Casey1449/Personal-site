@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://casey1449.github.io/Personal-site/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Metz"
 
@@ -23,7 +23,6 @@ googleAnalytics = ""
   custom_css = []
   custom_js  = []
   favicon    = "img/favicon.ico"
-
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
@@ -180,14 +179,22 @@ googleAnalytics = ""
   [params.footer]
     enable = true
 
+    [[params.footer.resume]]
+      title="Résumé"
+      icon = "fa-file-pdf-o"
+      link = "img/Resume-for-site.pdf"
+
     [[params.footer.social]]
+      title="Twitter"
       icon = "fa-twitter"
       link = "https://twitter.com/CaseyTMetz"
 
     [[params.footer.social]]
+      title="GitHub"
       icon = "fa-github"
       link = "https://github.com/Casey1449"
 
     [[params.footer.social]]
+      title="Linkedin"
       icon = "fa-linkedin"
       link = "https://www.linkedin.com/in/casey-metz-732804132"
