@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "www.caseymetz.tech"
 languageCode = "en-us"
 title = "Metz"
 
