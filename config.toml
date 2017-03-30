@@ -1,10 +1,10 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Metz"
+title = "Casey Metz"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-96527389-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
