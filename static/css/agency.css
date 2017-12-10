@@ -379,17 +379,29 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.logo-row {
+.tech_list {
   margin: auto;
-  margin-top: 50px;
-  max-width: 900px;
+	max-width: 900px;
+	margin-top: 50px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-around;
+	padding: 0;
+}
 
+.tech_cat {
+	display: flex;
+	flex-direction: column;
+}
+
+.logo_list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	list-style: none;
+	flex-wrap: wrap;
 }
 
 .tech-logo {
