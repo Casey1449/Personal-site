@@ -1,6 +1,6 @@
 <!--"Tech Section"-->
 <section id="tech" class="bg-light-gray">
-	<div class="container">
+	<div class="container tech-container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">{{ with .Site.Params.tech.title }}{{ . | markdownify }}{{ end }}</h2>
@@ -25,7 +25,7 @@
 					</li>
 					<li>
 						<div class="logo_overlay">J-QUERY</div>
-						<img class="tech-logo" src="img/logos/tech-logos/jquery.svg" />
+						<img class="tech-logo tl-big" src="img/logos/tech-logos/jquery.svg" />
 					</li>
 					<li>
 						<div class="logo_overlay">ES6</div>
@@ -53,7 +53,10 @@
 						<img class="tech-logo tl-big" src="img/logos/tech-logos/sass-color.svg" />
 					</li>
 					<li>
-						<div class="logo_overlay">CSS MODULES</div>
+						<div class="logo_overlay">
+							<div>CSS</div>
+							<div>MODULES</div>
+						</div>
 						<img class="tech-logo tl-big" src="img/logos/tech-logos/css_modules.svg" />
 					</li>
 				</ul>
