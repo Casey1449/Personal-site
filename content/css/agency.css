@@ -364,7 +364,8 @@ section h3.section-subheading {
     margin-bottom: 10px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+		font-size: 16px;
+		line-height: 24px;
     font-weight: 400;
 }
 
@@ -385,6 +386,9 @@ section h3.section-subheading {
 	align-items: center;
 }
 
+.tech-subheading {
+	max-width: 800px;
+}
 
 .tech_list {
   margin: auto;

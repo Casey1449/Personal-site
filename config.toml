@@ -116,7 +116,7 @@ googleAnalytics = "UA-96527389-1"
   [params.tech]
     enable = true
     title = "Tech"
-    subtitle = "Here are some of the technologies I enjoy using. These represent the comfort zone, but I love learning new tech as well."
+    subtitle = "These are some of the technologies I've used either personally or professionally. I love learning new tech as well! This list just represents the flavor of the stacks with which I'm most familiar."
 
   # Contact section
   [params.contact]
