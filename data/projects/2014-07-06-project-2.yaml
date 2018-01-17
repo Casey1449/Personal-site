@@ -7,5 +7,5 @@ img: this-just-in.png
 preview: this-just-in-preview.png
 deployed: Create your paper here!
 deployedLink: "https://this-just-in-74b5b.firebaseapp.com/"
-category: Dynamic rendering, API consumption
+category: Complex API queries, react-bootstrap
 description: A headline aggregator, organized like a personalized newspaper. Built with React, Redux, and Firebase. The user can log in and select from any of 60+ different news feeds, organized by 'page' (sports, business, world, etc.). Customized news pages are displayed, and the selections persist between sessions. A solo project.

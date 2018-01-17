@@ -7,5 +7,5 @@ img: react-native.png
 preview: react-native-preview.png
 deployed: This app not yet deployed to the iOS App store.
 deployedLink: null
-category: React Native, Mobile-first, Geolocation
+category: React Native, mobile-first, geolocation
 description: A project for iOS, built with React Native. The app consumes an API to find nearby alternative fueling stations (electric, biodiesel, etc.) that fit the user's needs based on selected preferences. Uses geolocation to calculate the closest stations, and provides detailed information about each station.

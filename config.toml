@@ -1,5 +1,11 @@
 # Site settings
-baseurl = "http://www.caseymetz.tech/"
+
+# for production:
+# baseurl = "http://www.caseymetz.tech/"
+
+# for development:
+baseurl = "/"
+
 languageCode = "en-us"
 title = "Casey Metz"
 
@@ -103,7 +109,7 @@ googleAnalytics = "UA-96527389-1"
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Here are some examples of things I've built."
+    subtitle = "Here are some examples of things I've built in the past, works-in-progress, and ideas for future projects."
 
     [params.portfolio.modal]
       deployed = "Deployed"
