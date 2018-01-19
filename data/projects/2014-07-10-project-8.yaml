@@ -1,11 +1,11 @@
 modalID: 8
-title: IdeaBox
-subtitle: Stash your ideas in LocalStorage, and rate, filter, and sort them.
+title: Denver Re:Imagine
+subtitle: Need recycling at your building? Recruit fellow tenants and organize a campaign!
 code: Github
-codeLink: "https://github.com/kerrd89/idea-box"
-img: ideabox.png
-preview: ideabox-preview.png
-deployed: Brainstorm here!
-deployedLink: "https://kerrd89.github.io/idea-box/"
-category: jQuery; localStorage
-description: A todo app written in jQuery, using LocalStorage for data persistence. Ideas can be voted up or down, filtered, sorted, and deleted.
+codeLink: "https://github.com/codefordenver/Circular"
+img: reimagine2.png
+preview: reimagine.png
+deployed: Check out the (WIP!) here
+deployedLink: "https://denver-reimagine.herokuapp.com/"
+category: An effort by Code for Denver, my Code for America brigade!
+description: A React app to which I contribute while volunteering with Code for Denver.

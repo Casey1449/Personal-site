@@ -1,11 +1,11 @@
 modalID: 9
-title: IdeaBox
-subtitle: Stash your ideas in LocalStorage, and rate, filter, and sort them.
-code: Github
-codeLink: "https://github.com/kerrd89/idea-box"
-img: ideabox.png
-preview: ideabox-preview.png
-deployed: Brainstorm here!
-deployedLink: "https://kerrd89.github.io/idea-box/"
-category: jQuery; localStorage
-description: A todo app written in jQuery, using LocalStorage for data persistence. Ideas can be voted up or down, filtered, sorted, and deleted.
+title: Shufflist (design stage)
+subtitle: Get random song suggestions from your repertoire during your gig, and save and edit your best setlists.
+code: Figma designs
+codeLink: "https://www.figma.com/file/VTpN4GbQvXKJDPWOdG4WM75u/Shufflist"
+img: shufflist2.png
+preview: shufflist.png
+deployed: Figma prototype
+deployedLink: "https://www.figma.com/proto/VTpN4GbQvXKJDPWOdG4WM75u/Shufflist?scaling=contain&node-id=0%3A2"
+category: React Native; gesture; lazy rendering; product design
+description: A gift for my musician brother, who has a 400 song repertoire but can never decide what to play.
