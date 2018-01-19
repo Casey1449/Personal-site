@@ -7,5 +7,5 @@ img: shoot-the-breeze-large.png
 preview: shoot-the-breeze-large-preview.png
 deployed: Hit me up in the chatroom here!
 deployedLink: "https://shoot-the-breeze-aa5d9.firebaseapp.com/"
-category: Realtime chatroom app using Firebase
+category: Realtime chat; Firebase
 description: Sit around and chat beside the firebase. Built with React and Auth0, leveraging Firebase's live updating feature, this app allows entry to the chat room through the user's Google account. It's mobile responsive, has a twitter-like 140 charater limit, and features a panel of all signed-in users. 

@@ -7,5 +7,5 @@ img: ember.png
 preview: ember-preview.png
 deployed: This app is not yet deployed, but stay tuned!
 deployedLink: null
-category: MVC Frameworks, classic CRUD
+category: MVC frameworks; Ember
 description: The UI implements a classic master/detail view, allowing users to easily create, read, update, and destroy their reminders. Features instant filtering and caution notices when data is unsaved.
