@@ -1,5 +1,6 @@
-{{ "<!-- Portfolio Grid Section -->" | safeHTML }}
-<section id="portfolio" >
+{{ "
+<!-- Portfolio Grid Section -->" | safeHTML }}
+<section id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -10,21 +11,21 @@
     <div class="row projects-row">
 
       {{ range .Site.Data.projects }}
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
+      <div class="col-md-6 col-sm-9 portfolio-item">
+        <a href="#portfolioModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
             </div>
-            {{ $url := printf "img/portfolio/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>{{ .title | markdownify }}</h4>
-            <p class="text-muted">{{ .category | markdownify }}</p>
           </div>
+          {{ $url := printf "img/portfolio/%s" .preview }}
+          <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>{{ .title | markdownify }}</h4>
+          <p class="text-muted">{{ .category | markdownify }}</p>
         </div>
+      </div>
       {{ end }}
 
     </div>

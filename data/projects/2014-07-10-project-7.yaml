@@ -1,0 +1,11 @@
+modalID: 7
+title: IdeaBox
+subtitle: Stash your ideas in LocalStorage, and rate, filter, and sort them.
+code: Github
+codeLink: "https://github.com/kerrd89/idea-box"
+img: ideabox.png
+preview: ideabox-preview.png
+deployed: Brainstorm here!
+deployedLink: "https://kerrd89.github.io/idea-box/"
+category: jQuery; localStorage
+description: A todo app written in jQuery, using LocalStorage for data persistence. Ideas can be voted up or down, filtered, sorted, and deleted.

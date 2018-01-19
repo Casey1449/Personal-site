@@ -7,5 +7,5 @@ img: ideabox.png
 preview: ideabox-preview.png
 deployed: Brainstorm here!
 deployedLink: "https://kerrd89.github.io/idea-box/"
-category: DOM manipulation; localStorage; jQuery
+category: jQuery; localStorage
 description: A todo app written in jQuery, using LocalStorage for data persistence. Ideas can be voted up or down, filtered, sorted, and deleted.
