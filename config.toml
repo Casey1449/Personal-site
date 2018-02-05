@@ -188,7 +188,7 @@ googleAnalytics = "UA-96527389-1"
     [[params.footer.resume]]
       title="Résumé"
       icon = "fa-file-pdf-o"
-      link = "img/Resume-for-site.pdf"
+      link = "img/Resume.pdf"
 
     [[params.footer.social]]
       title="Twitter"
