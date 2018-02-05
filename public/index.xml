@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Casey Metz</title>
+    <link>/</link>
+    <description>Recent content on Casey Metz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>Metz     Toggle navigation                     About   Tech   Portfolio   Contact       Casey Metz Software Engineering, Development, &amp;amp; Design    About Hello! My name&#39;s Casey, and I&#39;m a software developer currently based in Denver. I&#39;m primarily focused on frontend work, but my interests span into the backend.</description>
+    </item>
+    
+  </channel>
+</rss>
